@@ -1,0 +1,20 @@
+name: udacity-gen-ai
+channels:
+  - defaults
+  - pytorch
+  - nvidia
+  - anaconda 
+dependencies:
+  - pip
+  - pip:
+    - langchain
+    - openai
+    - pydantic
+    - pytest
+    - sentence-transformers
+    - chromadb
+    - jupyter
+    - python-dotenv
+    - ipykernel
+    - langchain-openai
+    - langchain-chroma
