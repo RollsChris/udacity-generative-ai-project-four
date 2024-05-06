@@ -18,3 +18,4 @@ dependencies:
     - ipykernel
     - langchain-openai
     - langchain-chroma
+    - langchainhub
